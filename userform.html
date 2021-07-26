@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form Task </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left" style="display:flex">
+           <form onsubmit="postdata(); return false">
+            <div class="row1">
+                <label for=>Name</label>
+                <input type="text">
+            </div>
+            <div class="row1">
+                <label for=>Age</label>
+                <input type="text">
+            </div>
+            <div class="row1">
+                <!--<label for="Age"></label>-->
+                <input type="submit">
+            </div>
+        </form>
+        </div>
+        <div class="right">
+            
+<table id="datatable">
+    <tr>
+      <th>name</th>
+      <th>age</th>
+      <th>action</th>
+    </tr>
+
+  </table>
+        </div>
+    </div>
+    <script src="form.js"></script>
+    
+</body>
+</html>
